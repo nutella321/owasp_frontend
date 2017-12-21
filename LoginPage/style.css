@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    background-blend-mode: luminosity;
+
 }
 
 .headpic {
@@ -70,8 +70,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
-    background-color: white;
-    color: green;
+  background-color: rgb(253, 176, 50);
+  color: white;
 }
 
 .button {
@@ -95,14 +95,15 @@ input[type=submit]:hover{
 }
 
 .button:hover{
-    background-color: white;
-    color: blue;
+    background-color: rgb(253, 176, 50);
+    color: white;
 }
 
 .heading {
     font-family: 'Roboto Mono', monospace;
     font-size: 45px;
-    color: wheat;
+    color: rgb(253, 176, 50);
+    font-family: bariol;
 }
 
 .button_fb {
@@ -141,18 +142,15 @@ input[type=submit]:hover{
 }
 
 .button_fb:hover{
-    background-color: white;
-    color: white;
+background-color: rgb(253, 176, 50);
 }
 
 .button_google:hover{
-    background-color: white;;
-    color: white;
+background-color: rgb(253, 176, 50);
 }
 
 .button_linkedin:hover{
-    background-color: white;
-    color: deepskyblue;
+      background-color: rgb(253, 176, 50);
 }
 
 .hey{
@@ -164,4 +162,15 @@ input[type=submit]:hover{
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+
+@font-face {
+  font-family: 'adam';
+  src: url(adam.woff);
+}
+
+@font-face {
+  font-family: bariol;
+  src: url(bariol.woff);
 }
